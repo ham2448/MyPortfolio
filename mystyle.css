@@ -1,0 +1,253 @@
+body, html{
+    font-family: Arial;
+    background-color: #A5B68D;
+    color:#1d1919
+  }
+  #navbar {
+  background-color: #626a64;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index: 1;
+  transition: top 0.3s; 
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*______section ______________*/
+.section{
+    padding: 50px;
+    display: inline-grid;
+    width: 100%;
+    text-align: center;
+    h2{
+        text-decoration: underline;
+    }
+}
+/*home______________*/
+.avatar {
+
+    width: 200;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    display:block;
+    margin:auto;
+    border: 5px solid #555
+
+  }
+.myimage{
+  
+    overflow: hidden;
+    position:relative;     
+    display:center;
+    h3{
+        padding:5px;
+        font-family: "Times New Roman", Times, serif;
+        text-decoration-line: underline;
+        text-decoration-style: dashed; 
+        font-size:25px;
+        text-decoration: bold;
+        letter-spacing: 3px;
+    }
+    }
+  
+/*-----------image row style-------------*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    img{
+        transition: .5s ease;
+        padding:20px;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border: 5px solid #555;
+        border-radius: 41%;
+        background: #ffffff;
+    }
+    img:hover{
+        transition: .5s ease;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border: 5px solid #555;
+        border-radius: 41%;
+        background: #ffffff;
+
+    }
+}
+  
+
+  .row{
+    width:100;
+    .row::after {
+
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
+/*-----------------activity slide style-------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+.slideimg{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+  
+}
+/* Next & previous buttons */
+.prev{
+    left:0;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(93, 91, 91);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.description{
+  float:left;
+  position:relative;
+  margin-top: 20px ;
+  text-align: center;
+
+}
+.quote{font-size:90%;}
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  
+  transition: background-color 0.6s ease;
+ 
+}
+.active, .dot:hover {
+  background-color: #717171;
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+}
+
+.contact {
+    float: left;
+    width: 50%;
+
+    
+}
+
+.app img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:auto;
+    border: 5px solid #555;
+    background:white;
+
+}
+.app h4{
+    left:40%;
+    float:left;
+
+}
+.app{
+    width: 100%;
+   display: inline-block;
+
+    
+}
+
+
+#mecontact{
+       
+    border: 2px dashed #555;
+    padding: 3px;
+    width:300px;
+     height:400px;
+     overflow:hidden;
+}
+.app{
+    margin-left:100px;
+    text-align:center;
+}
